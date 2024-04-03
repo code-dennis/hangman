@@ -12,7 +12,7 @@ To succesfully run week56.py and week7.py you need to add the emulate terminal o
 This has to be done in order to hide the word the leading player is typing so that the guessing player does not see it. 
 
 ------------------------------------------------------------------------------------------------------------------------------
-1. Right click on the week56.py file in the project overview and select More Run/Debug -> Modify Run Configuration...
+1. Right click on the week56.py file in the project overview in PyCharm and select More Run/Debug -> Modify Run Configuration...
 2. Click on Modify Options in the run configurations window.
 3. Select Emulate terminal in console output.
 4. You can now see the option added on the bottom of the run configurations window.
