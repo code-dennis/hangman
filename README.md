@@ -9,9 +9,20 @@ The project contains three versions of the hangman game that can all be played i
 
 ------------------------------------------------------------------------------------------------------------------------------
 To succesfully run week56.py and week7.py you need to add the emulate terminal option in the run configuration settings.
+This has to be done in order to hide the word the leading player is typing so that the guessing player does not see it. 
 
 ------------------------------------------------------------------------------------------------------------------------------
-See screenshots folder on how to do so.
+1. Right click on the week56.py file in the project overview and select More Run/Debug -> Modify Run Configuration...
+2. Click on Modify Options in the run configurations window.
+3. Select Emulate terminal in console output.
+4. You can now see the option added on the bottom of the run configurations window.
+5. Click OK to save the new configuration
+6. You can now see the run configuration in top top right corner of the main PyCharm window - next to the play button.
+7. Repeat these steps for both the week7.py.
+  
+If you want to hide the input in main.py, you need to implement the getWordToGuess function from week56.py add the emulate terminal option there as well. 
+
+See screenshots folder for images of these steps.
 
 In the screenshots folder you can also find examples of how to set player names from outside the application. 
 Week56 uses args as parameter inputs and week7 uses kwargs.
