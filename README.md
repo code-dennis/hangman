@@ -7,6 +7,17 @@ The project contains three versions of the hangman game that can all be played i
   2) week56.py expands on the week123 version by introducing simple collections and functions.
   3) week7.py concludes the showcase by adding complex collections and functions.
 
+------------------------------------------------------------------------------------------------------------------------------
+To succesfully run week56.py and week7.py you need to add the emulate terminal option in the run configuration settings.
+
+------------------------------------------------------------------------------------------------------------------------------
+See screenshots folder on how to do so.
+
+In the screenshots folder you can also find examples of how to set player names from outside the application. 
+Week56 uses args as parameter inputs and week7 uses kwargs.
+
+------------------------------------------------------------------------------------------------------------------------------
+
 The main.py file is a copy of week123.py. 
 Here you can experiment with adding collections and functions all you want.
 
