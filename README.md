@@ -12,3 +12,8 @@ Here you can experiment with collections and functions all you want.
 
 If the code breaks and you don't know how to fix it anymore,
 You can simply start over by copying the code from week123.py to main.py.
+
+In the roadmap file you can see the steps that the code consists of.
+See the challenge file for more challenges once you got the hang of functions and collections.
+
+Good luck and have fun!
