@@ -18,7 +18,7 @@ This has to be done in order to hide the word the leading player is typing so th
 4. You can now see the option added on the bottom of the run configurations window.
 5. Click OK to save the new configuration
 6. You can now see the run configuration in top top right corner of the main PyCharm window - next to the play button.
-7. Repeat these steps for both the week7.py.
+7. Repeat these steps for week7.py.
   
 If you want to hide the input in main.py, you need to implement the getWordToGuess function from week56.py add the emulate terminal option there as well. 
 
