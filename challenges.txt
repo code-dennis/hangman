@@ -16,6 +16,6 @@ Challenge B:
         > the amount of parts is a measure of difficulty
             > more parts = easier, fewer parts = harder
 
-Challenge C (week 9, 10, 11):
+Challenge C (week 9, 10, 11 en 13):
     C1. Create hangman with classes & objects
     C2. Save / load highscore (with a file or database)
