@@ -14,7 +14,7 @@
 # D.  Conclude the round
 # ----------------------------------
 # D1. show win or lose message
-# D2. update scores if player has won
+# D2. update scores if guesser has won
 # D3. show what was the word to guess
 # D4. show player scores
 # D5. change player roles

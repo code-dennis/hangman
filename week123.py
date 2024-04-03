@@ -151,7 +151,7 @@ while True:
     else:
         print(f"That's right {guesser}! Well done\n")
 
-        # D2. update scores if player has won
+        # D2. update scores if guesser has won
         if guesser == player1:
             scorePlayer1 += 1
         elif guesser == player2:

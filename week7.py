@@ -22,13 +22,13 @@ def getWordToGuess(prompt):
     return word
 
 
-def printList(list, delimiter=""):
-    print(toString(list, delimiter))
+def printList(list, separator=""):
+    print(toString(list, separator))
 
 
 # joining a list to a string returns the list as a concatenated string
-def toString(list, delimiter=""):
-    return delimiter.join(list)
+def toString(list, separator=""):
+    return separator.join(list)
 
 
 # save all indices of items for which the lambda function returns True
@@ -250,7 +250,7 @@ def main(**kwargs):
         # D1. show win or lose message
         showWinLoseMessage(mistakes, maxMistakes, guesser, wordToGuess)
 
-        # D2. update scores if player has won
+        # D2. update scores if guesser has won
         # D3. show player scores
         updateAndShowHighscore(highscores, guesser, mistakes, maxMistakes)
 

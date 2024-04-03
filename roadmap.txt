@@ -31,6 +31,6 @@
     # D.  Conclude the round
     # ----------------------------------
     # D1. show win or lose message
-    # D2. update scores if player has won
+    # D2. update scores if guesser has won
     # D3. show player scores
     # D4. change player roles
