@@ -1,0 +1,19 @@
+# --- Hangman | Roadmap Part 1: Collecting the Data --- #
+
+# A. Initialize the game
+# ---------------------------------
+# A1. create gallows (galg)
+# A2. create body parts
+# A3. create players
+# A4. set the leader & the guesser
+# A5. create player scores
+# A6. set maxMistakes
+
+# A7. start the game loop
+    # B. The round setup
+    # ---------------------------------------------
+    # B1. set current mistakes to 0
+    # B2. create copy of gallows to draw hangman on
+    # B3. create a place to store guessed characters
+    # B4. get word to guess from the current leader
+    # B5. create hidden word based on word to guess

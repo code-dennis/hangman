@@ -1,0 +1,21 @@
+--- Hangman | Challenges ---
+
+Challenge A:
+    A1. Add a menu
+        > Change player names
+        > Exit the game
+    A2. Add a tournament mode with 4 players
+        > A vs B, C vs D, winners against each other
+    A3. Create your own hangman figure
+
+Challenge B:
+    B1. Fix the getWordToGuess function backspace error
+    B2. Time how fast players guess the word
+    B3. Let players choose between different hangman
+        > each hangman can have different amounts of parts
+        > the amount of parts is a measure of difficulty
+            > more parts = easier, fewer parts = harder
+
+Challenge C (week 9, 10, 11):
+    C1. Create hangman with classes & objects
+    C2. Save / load highscore (with a file or database)

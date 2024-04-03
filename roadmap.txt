@@ -1,0 +1,36 @@
+# --- Hangman | Roadmap --- #
+
+# A. Initialize the game
+# ---------------------------------
+# A1. create gallows (galg)
+# A2. create body parts
+# A3. create players
+# A4. set the leader & the guesser
+# A5. create player scores
+# A6. set maxMistakes
+
+# A7. start the game loop
+    # B. The round setup
+    # ---------------------------------------------
+    # B1. set current mistakes to 0
+    # B2. create copy of gallows to draw hangman on
+    # B3. create a place to store guessed characters
+    # B4. get word to guess from the current leader
+    # B5. create hidden word based on word to guess
+
+    # C. The guessing loop
+    # ----------------------------------
+        # C1. show current hidden word
+        # C2. get guessing player's guess
+        # C3. check if guess is valid
+        # C4. find guess in word to guess
+            # C5. guess is not in word: update mistakes & hangman
+            # C6. guess is correct: update guessed word
+        # C7. update & show guessed characters
+
+    # D.  Conclude the round
+    # ----------------------------------
+    # D1. show win or lose message
+    # D2. update scores if player has won
+    # D3. show player scores
+    # D4. change player roles

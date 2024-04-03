@@ -1,0 +1,20 @@
+# --- Hangman | Roadmap Part 2: Playing the game --- #
+
+# C. The guessing loop
+# ----------------------------------
+    # C1. show current hidden word
+    # C2. get guessing player's guess
+    # C3. check if guess is valid
+
+    # C4. find guess in word to guess
+        # C5. guess is not in word: update mistakes & hangman
+        # C6. guess is correct: update guessed word
+    # C7. update & show guessed characters
+
+# D.  Conclude the round
+# ----------------------------------
+# D1. show win or lose message
+# D2. update scores if player has won
+# D3. show what was the word to guess
+# D4. show player scores
+# D5. change player roles
